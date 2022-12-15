@@ -1,0 +1,32 @@
+---
+title: "Statistical inference using regression models"
+author: "Edoardo \"Dado\" Marcora"
+date: 2022-12-15
+format:
+  revealjs:
+    smaller: true
+    scrollable: true
+    theme: simple
+---
+
+# Motivation
+
+## Quantitative empirical research
+
+# Probability
+
+## What is probability?
+
+## Probability axioms
+
+## Probability rules
+
+## Conditional probability
+
+# Models
+
+## What is a statistical model?
+
+# Inference
+
+## Inference is the inverse of probability
