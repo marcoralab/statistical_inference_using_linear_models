@@ -25,7 +25,11 @@ Statistical inference requires a statistical model = a probabilistic model of th
 
 ## What is probability?
 
-Probability theory is a mathematical framework for reasoning about uncertainty \| analyzing phenomena with uncertain outcomes.
+Probability theory is a mathematical framework for analyzing phenomena with uncertain outcomes:
+
+-   Rules for consistent reasoning
+
+-   Used for predictions and decisions
 
 Probability theory gives us the models that we need to deal with uncertainty in a systematic way.
 
