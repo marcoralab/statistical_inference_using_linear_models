@@ -332,12 +332,20 @@
 </section>
 
 <section>
-<section id="motivation" class="title-slide slide level1 center">
-<h1>Motivation</h1>
+<section id="from-research-question-to-probability-theory" class="title-slide slide level1 center">
+<h1>From research question to probability theory</h1>
 
 </section>
-<section id="quantitative-empirical-research" class="slide level2">
-<h2>Quantitative empirical research</h2>
+<section id="research-question" class="slide level2">
+<h2>Research question</h2>
+</section>
+<section id="quantity-of-interest" class="slide level2">
+<h2>Quantity of interest</h2>
+</section>
+<section id="statistics" class="slide level2">
+<h2>Statistics</h2>
+<p>Descriptive vs inferential statistics</p>
+<p>Statistical inference requires a statistical model = a probabilistic model of the data generation process.</p>
 </section></section>
 <section>
 <section id="probability" class="title-slide slide level1 center">
@@ -346,6 +354,8 @@
 </section>
 <section id="what-is-probability" class="slide level2">
 <h2>What is probability?</h2>
+<p>Probability as a mathematical framework for reasoning about uncertainty.</p>
+<p>Probability theory gives us the models that we need to deal with uncertainty in a systematic way.</p>
 </section>
 <section id="probability-axioms" class="slide level2">
 <h2>Probability axioms</h2>
@@ -363,6 +373,29 @@
 </section>
 <section id="what-is-a-statistical-model" class="slide level2">
 <h2>What is a statistical model?</h2>
+<p>A probabilistic model of the data generation process.</p>
+<p><span class="math inline">\((S, P)\)</span> = <strong>probabilistic model</strong></p>
+<p><span class="math inline">\(S\)</span> = <strong>sample space</strong></p>
+<p><span class="math inline">\(P\)</span> = <strong>probability law/distribution/function</strong></p>
+<p>The sample space <span class="math inline">\(S\)</span> (often also symbolized by <span class="math inline">\(\Omega\)</span>) is <strong>the set of all possible outcomes of a random experiment</strong>. This set must be <strong>mutually exclusive</strong> and <strong>collectively exhaustive</strong>! This set must also be at the “right” granularity (art)!</p>
+<p>Probability is assigned to events, not outcomes!</p>
+<p>Event = subset of <span class="math inline">\(S\)</span></p>
+<p>An event is said to occur if the outcome of the random experiment is an element of that subset.</p>
+<p>Probability measures your beliefs about how likely events are to occur. By convention, 0 means that an event will never occur, 1 means that an event will always occur.</p>
+<p>Probability measures your belief that a statement is true. By convention, 0 means that a statement is false, 1 means that a statement is true.</p>
+<p><span class="math inline">\(P\)</span> must obey <strong>the axioms of probability</strong>:</p>
+<ul>
+<li><p><strong>Nonnegativity</strong>: <span class="math inline">\(P(A) \ge 0\)</span></p></li>
+<li><p><strong>Normalization</strong>: <span class="math inline">\(P(S) = 1\)</span></p></li>
+<li><p><strong>Additivity</strong>: If <span class="math inline">\(A \cup B = 0\)</span>, then <span class="math inline">\(P(A \cup B) = P(A) + P(B)\)</span></p></li>
+</ul>
+<p>Graphical representation of sets and probability as “mass” (1 pound of cream cheese)</p>
+<p>Exercise: Derive the probability law that <span class="math inline">\(P(A) \le 1\)</span> from the three probability axioms.</p>
+<p>Exercise: Derive the probability law that, if A, B and C are disjoint events, then:</p>
+<p><span class="math inline">\(P(A \cup B \cup C) = P(A) + P(B) + P(C)\)</span></p>
+<p><span class="math inline">\(P(A_1 \cup A_2 \cup \ldots \cup A_n) = P(A_1) + P(A_1) \ldots + P(A_n)\)</span></p>
+<p><span class="math inline">\(P(\{ s_1, s_2, \ldots, s_k \}) = P(\{ s_1 \}) + P(\{ s_2 \}) + \ldots + P(\{ s_k \}) = P(s_1) + P(s_2) + \ldots + P(s_k)\)</span></p>
+<p>Discrete (or continuous) uniform probability law: Probability = Area (in graphical representation of sets)</p>
 </section></section>
 <section>
 <section id="inference" class="title-slide slide level1 center">

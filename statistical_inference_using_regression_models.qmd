@@ -9,13 +9,25 @@ format:
     theme: simple
 ---
 
-# Motivation
+# From research question to probability theory
 
-## Quantitative empirical research
+## Research question
+
+## Quantity of interest
+
+## Statistics
+
+Descriptive vs inferential statistics
+
+Statistical inference requires a statistical model = a probabilistic model of the data generation process.
 
 # Probability
 
 ## What is probability?
+
+Probability as a mathematical framework for reasoning about uncertainty.
+
+Probability theory gives us the models that we need to deal with uncertainty in a systematic way.
 
 ## Probability axioms
 
@@ -26,6 +38,48 @@ format:
 # Models
 
 ## What is a statistical model?
+
+A probabilistic model of the data generation process.
+
+$(S, P)$ = **probabilistic model**
+
+$S$ = **sample space**
+
+$P$ = **probability law/distribution/function**
+
+The sample space $S$ (often also symbolized by $\Omega$) is **the set of all possible outcomes of a random experiment**. This set must be **mutually exclusive** and **collectively exhaustive**! This set must also be at the "right" granularity (art)!
+
+Probability is assigned to events, not outcomes!
+
+Event = subset of $S$
+
+An event is said to occur if the outcome of the random experiment is an element of that subset.
+
+Probability measures your beliefs about how likely events are to occur. By convention, 0 means that an event will never occur, 1 means that an event will always occur.
+
+Probability measures your belief that a statement is true. By convention, 0 means that a statement is false, 1 means that a statement is true.
+
+$P$ must obey **the axioms of probability**:
+
+-   **Nonnegativity**: $P(A) \ge 0$
+
+-   **Normalization**: $P(S) = 1$
+
+-   **Additivity**: If $A \cup B = 0$, then $P(A \cup B) = P(A) + P(B)$
+
+Graphical representation of sets and probability as "mass" (1 pound of cream cheese)
+
+Exercise: Derive the probability law that $P(A) \le 1$ from the three probability axioms.
+
+Exercise: Derive the probability law that, if A, B and C are disjoint events, then:
+
+$P(A \cup B \cup C) = P(A) + P(B) + P(C)$
+
+$P(A_1 \cup A_2 \cup \ldots \cup A_n) = P(A_1) + P(A_1) \ldots + P(A_n)$
+
+$P(\{ s_1, s_2, \ldots, s_k \}) = P(\{ s_1 \}) + P(\{ s_2 \}) + \ldots + P(\{ s_k \}) = P(s_1) + P(s_2) + \ldots + P(s_k)$
+
+Discrete (or continuous) uniform probability law: Probability = Area (in graphical representation of sets)
 
 # Inference
 
