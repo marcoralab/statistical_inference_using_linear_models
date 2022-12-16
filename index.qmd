@@ -1,5 +1,5 @@
 ---
-title: "Statistical inference using regression models"
+title: "Statistical inference using linear models"
 author: "Edoardo \"Dado\" Marcora"
 date: 2022-12-15
 format:
