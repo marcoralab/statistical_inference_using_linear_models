@@ -87,6 +87,34 @@ $P(\{ s_1, s_2, \ldots, s_k \}) = P(\{ s_1 \}) + P(\{ s_2 \}) + \ldots + P(\{ s_
 
 Discrete (or continuous) uniform probability law: Probability = Area (in graphical representation of sets)
 
+### Conditional probability
+
+$P(A \mid B)$ = probability that event A will occur, given that event B has occurred!
+
+Event B is our new universe/sample space.
+
+Assuming $P(B) \ne 0$,
+
+$$
+P(A \mid B) = \frac{P(A \cap B)}{P(B)}
+$$
+
+$P(A \mid B)$ is undefined if $P(B) \ne 0$
+
+### Multiplication rule
+
+$P(A \cap B) = P(A \mid B) P(B)$
+
+### Bayes theorem
+
+$P(B \cap A) = P(B \mid A) P(A)$
+
+$P(B \cap A) = P(B \cap A)$
+
+$P(A \mid B) P(B) = P(B \mid A) P(A)$
+
+$P(A \mid B) = \frac{P(B \mid A) P(A)}{P(B)}$
+
 # Inference
 
 ## Inference is the inverse of probability
